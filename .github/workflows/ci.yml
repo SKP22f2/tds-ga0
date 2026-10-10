@@ -1,0 +1,13 @@
+yaml
+name: TDS GA0
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 22f2001490@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
